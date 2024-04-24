@@ -6,11 +6,7 @@ import java.util.List;
 
 public class task4WithList {
     public static void main(String[] args) {
-        List<Integer> data = new ArrayList<Integer>();
-        data.add(8);
-        data.add(3);
-        data.add(4);
-        data.add(5);
+
         List<Integer> data2 = new ArrayList<>();
         task4Masala(data2);
 
@@ -22,6 +18,10 @@ public class task4WithList {
 
     public static List<Integer> task4Masala(List<Integer> number) {
         List<Integer> data = new ArrayList<Integer>();
+        data.add(8);
+        data.add(3);
+        data.add(4);
+        data.add(5);
         List<Integer> data2 = new ArrayList<>();
 
         for (Integer i : data) {
