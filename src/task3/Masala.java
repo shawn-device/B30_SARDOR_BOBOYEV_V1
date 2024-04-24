@@ -20,6 +20,8 @@ public class Masala {
         System.out.print(count);
         System.out.println(" ta reverse soz bor arrayda");
     }
+
+
     public static String reverse(String str) {
         StringBuilder newStr = new StringBuilder();
         for (int i = str.length() - 1; i > -1; i--) {
