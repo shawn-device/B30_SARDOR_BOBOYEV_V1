@@ -1,0 +1,23 @@
+1. Dequeue va Queue farqlari ?
+    Queue va dequeue classi list interfaceidan extend olgan navbat degan manoni aglatadi.
+Queue data structure FIFO  tarzida qoshadi yani first in first out birinchi kirgan birinchi chiqadi. va queue elementni boshidan qoshaoladi.
+Arraydeque malumotlarni ikki tomonlama oqiydi yani qoshish ham olish ham dequeue da imkoni bor.
+Qoshish olish amallarida ArrayDeque dan foydalangan maqulroq chunki tez ishlaydi
+
+2. Hashmap malumotlarni qanday saqlaydi?
+    Hashmapni ichida key va value qiymatlarini saqlaydigan data structure. HashMap elementlarni keyning hashcode ni qoldiqli
+ arrayning length siga bolib chiqqan qoldiqni index siga joylashtiradi.
+HashMap elementlarni orqa fonda arrayda saqlaydi yani Node tipli arrayda.
+
+3.  Nega enum dan foydalanish avzalroq?
+    Biz project qilyotganizmda bizga uzgarmas konstantalar kerak boladi va biz ularni enum classida yaratamiz.
+    va biz ularni oldindan bilamiz misol uchun hafta kunlari yoki role lar shular uchun yangi enum classi yaratiladi.
+    bu projectni qulay read qilishga yordam beradi.
+
+4. Exception heirarcy?
+    Avvalo exceptionlar nima Exceptionlar bu kod yozyotganimizda kutilmagan vaziyatda va biz xoxlamagan vaqtda sodir boladigan xatolik.
+    Hierarcy da eng kattasi Throable yani Object classidan extend olgan
+    undan keyin Exception va Error.
+    Exceptionlar ikkiga bolinadi Checked va unchecked exceptionlar boshqa nomi Runtime va compile time exceptionlar hisoblanadi.
+    misol uchun IndexOutOfBoundsException, NullPointerException vahkzo;
+    Error bu userning aybi bilan sodir boladigan xatolik emas. Yani komputer xatosi xotirasi tolib qolishi StackOverFlowError va shunga uxshash boshqalar.
